@@ -1,0 +1,1002 @@
+fileFormatVersion: 2
+guid: 701265347195e6e44b773dd042e5757e
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00000
+    second: {fileID: 2100000, guid: 20a2cc4db49ca7f4aa50c5b9a72b7752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00000.001
+    second: {fileID: 2100000, guid: 2663bd1ecb5a26f41a637db3c5c2103f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00001
+    second: {fileID: 2100000, guid: ad4849925464dd149bc9cd5b98d6183a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00001.001
+    second: {fileID: 2100000, guid: ceb4416b449765249bca06f77b3b2fc3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00002
+    second: {fileID: 2100000, guid: a200d02641753574fadade824559b7b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00003
+    second: {fileID: 2100000, guid: be7b86508e1a6d1479bf86e42ce9e1ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00003.001
+    second: {fileID: 2100000, guid: e6ea41d18b5a4cb438108e8ba3e9737d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00004
+    second: {fileID: 2100000, guid: c6bede2a530c9dc46966b07163931350, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00004.001
+    second: {fileID: 2100000, guid: 79834c19112fad74eabf430cdf3b8e38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00005
+    second: {fileID: 2100000, guid: f32496706e4fe5e4792071c308bdc0bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00005.001
+    second: {fileID: 2100000, guid: cac223e9ae3b71d478b005f99edf8b7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00006
+    second: {fileID: 2100000, guid: 740cff754158e1047bfbcc952cb050a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00006.001
+    second: {fileID: 2100000, guid: b2533566110a9cd48bcc09abc568b355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00007
+    second: {fileID: 2100000, guid: f143c977ba0a9974e9acb53d006e366c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00007.001
+    second: {fileID: 2100000, guid: c430a3be414a9614da3eefd26e41dd95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00008
+    second: {fileID: 2100000, guid: 6d2e770940e76b04cb8608cfcfc7663c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00008.001
+    second: {fileID: 2100000, guid: 2d590bac64a4dfe47927258c1a434d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00009
+    second: {fileID: 2100000, guid: 90b304f2b88bb2141ba8fcbd9fd6682f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00009.001
+    second: {fileID: 2100000, guid: 49c0b3d397e710b4b8ee019e02716ad7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00010
+    second: {fileID: 2100000, guid: 7c982e481a506354c87e14829da772f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00011
+    second: {fileID: 2100000, guid: 3066f04aee9bb6f4a8b02f3bcd740a3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00012
+    second: {fileID: 2100000, guid: 873fa3649a50d534197dd5e80f0cccd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00012.001
+    second: {fileID: 2100000, guid: 6f759a5bb3a012044b88d2628372dd7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00013
+    second: {fileID: 2100000, guid: e3c682bf82039f84cb09d3d53b6d0025, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00014.001
+    second: {fileID: 2100000, guid: e6fc0f1021d8c0e43aed21f650d4e34b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00017
+    second: {fileID: 2100000, guid: 0b0854100198ddb4689c3707d347e2f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00017.001
+    second: {fileID: 2100000, guid: 1e6e589d26b48c1418344c5a9f9f1aa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00018
+    second: {fileID: 2100000, guid: 2ee4efe6430f6cf4e9e07218a80dd1ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00019
+    second: {fileID: 2100000, guid: 61e1e893b7b61cf478e67b94cda3feaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00020
+    second: {fileID: 2100000, guid: 08a787a5c4c63af4db7605b65fbd7e78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00021
+    second: {fileID: 2100000, guid: 30f855213e3bee342af6645679ccd11d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00021.001
+    second: {fileID: 2100000, guid: 66cca60754d17ae4699a8f0127810d1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00022
+    second: {fileID: 2100000, guid: 1d1e7973e2040d24e9456ceff0ad307b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00023
+    second: {fileID: 2100000, guid: 49c0a3f2e6abbd4459a0ddba69ff5753, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00024
+    second: {fileID: 2100000, guid: 2150892f036c1b74c9e97ba593af4a8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00025
+    second: {fileID: 2100000, guid: 23dcad631ad54fd46b21a775864b8dfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00026
+    second: {fileID: 2100000, guid: 21a3135bf1913b64f91ebe3f5ef18fb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00026.001
+    second: {fileID: 2100000, guid: dfc2c9478a2e0514abacd74d8c8fcf15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00027
+    second: {fileID: 2100000, guid: a0bbe2d01d413634e95b11c2d31d1391, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00027.001
+    second: {fileID: 2100000, guid: d3539ee9562a8a140b80a96ff93703d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00028
+    second: {fileID: 2100000, guid: f749509cabe7abc44b78404ced55e3c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00031
+    second: {fileID: 2100000, guid: e68101ebb0cd7934eb1c1c63d332d995, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00031.001
+    second: {fileID: 2100000, guid: 3560b0d5694f3b5429b967be5ecbdff6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00032.001
+    second: {fileID: 2100000, guid: 90c47fdb3464dd1449dc1c5355e515d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00033.001
+    second: {fileID: 2100000, guid: 40d15e84c035c284cba616f1ef5eac52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00034.001
+    second: {fileID: 2100000, guid: 4f94457a30748e34297bbb6d17369385, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00035
+    second: {fileID: 2100000, guid: 5644509ff5aeac34385765cd6dcff2d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00035.001
+    second: {fileID: 2100000, guid: a3e40b42af338924bb470fa279995b1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00036.001
+    second: {fileID: 2100000, guid: 475a747400217374cac2308a37980b41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00037.001
+    second: {fileID: 2100000, guid: f119fd1937bd83743b5cdc7384fec525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00038.001
+    second: {fileID: 2100000, guid: 5dfcce5b45b936f4fba3e531728d1769, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00039
+    second: {fileID: 2100000, guid: 899d671e14b72e5459ea246590ca0614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00039.001
+    second: {fileID: 2100000, guid: d907437af70540d4c86281fba06b2b16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00040
+    second: {fileID: 2100000, guid: 50709750d68c3cd4a893201cbfb23cde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00040.001
+    second: {fileID: 2100000, guid: d88facb7f4e747849b9db8f28a6bdea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00041
+    second: {fileID: 2100000, guid: d2607663d591aee419fb7c9a0d9d1b46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00041.001
+    second: {fileID: 2100000, guid: 40b9cfa6c44004b47971b7ccfd068cb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00042
+    second: {fileID: 2100000, guid: 79afb221b5f19f44f99baa92137c61e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00042.001
+    second: {fileID: 2100000, guid: c34c5d2811d2fb144948fa420378bc71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00043
+    second: {fileID: 2100000, guid: 51903906f48faca4a842fb335d58a32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00043.001
+    second: {fileID: 2100000, guid: c2225efd9240f5d45a0cb7202126eeae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00044
+    second: {fileID: 2100000, guid: feea16438f56d394c8e5fef9b3fc8d74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00045
+    second: {fileID: 2100000, guid: a0bb832e72c75e841a3fc73ba881689b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00046
+    second: {fileID: 2100000, guid: d96e38a50cce7994c9854483ba6f9bd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00046.001
+    second: {fileID: 2100000, guid: a84447acccbf3734e989ea6d9606b0f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00047.001
+    second: {fileID: 2100000, guid: 262a324e2a41c7f4f9b2db1a712f40f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00048.001
+    second: {fileID: 2100000, guid: 79e0ea7c2a5259f42a0979798f0f6240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00050
+    second: {fileID: 2100000, guid: 8e00eb8eeaf1b884f86019c106c1508a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00051
+    second: {fileID: 2100000, guid: e2ba49b3b997179439c099e41e3c7ea9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00051.001
+    second: {fileID: 2100000, guid: 522bfa192783e8448bb2a884f8cfb2c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00052
+    second: {fileID: 2100000, guid: 3c4b9b19b1b4ee547a381b5c422d7a25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00052.001
+    second: {fileID: 2100000, guid: 00155f983e65fea4b96f78c12807ec18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00053
+    second: {fileID: 2100000, guid: 9f99f1c0cf7cd3b48848a5447fb0e720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00053.001
+    second: {fileID: 2100000, guid: 60e8c2904db5eff4ab139985223ea8d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00055
+    second: {fileID: 2100000, guid: b2398de74fc1af349a7f93f44edefa20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00056
+    second: {fileID: 2100000, guid: ae200e6bd3422f84c8c692c981b9cce8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00056.001
+    second: {fileID: 2100000, guid: fb040391a763878468616744ce1d6a6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00057.001
+    second: {fileID: 2100000, guid: 2bb12221332693b4cac9c5e05ae7a6d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00058.001
+    second: {fileID: 2100000, guid: 45d83d84547b7a442b658160d0d59b21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00059
+    second: {fileID: 2100000, guid: bbf5145d0cc6a854b800bc448462d8ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00059.001
+    second: {fileID: 2100000, guid: ab784603a2a8d1742a72931f2cf3f706, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00060
+    second: {fileID: 2100000, guid: 4cd5fe14293d7814e86a2cccea7eec20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00060.001
+    second: {fileID: 2100000, guid: 36191e4eabf11fb49b351f7b57fa3909, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00061
+    second: {fileID: 2100000, guid: 49816dfc13c70e74faff5d16a52f72b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00061.001
+    second: {fileID: 2100000, guid: 5247ff4fa320c29418fa42a596359728, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00062
+    second: {fileID: 2100000, guid: b7aa2cb143ed23e4fafc7561fdabcb01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00062.001
+    second: {fileID: 2100000, guid: eef17df600ad0b14cb5d5f0b88f62b97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00063
+    second: {fileID: 2100000, guid: 8a485bfcfacba564fb7560d2d4cb8648, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00064
+    second: {fileID: 2100000, guid: 534997b3d16467849bfff4224dcf0102, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00064.001
+    second: {fileID: 2100000, guid: c0863a52e1e80b04088a2927648172e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00065
+    second: {fileID: 2100000, guid: 279fc870df0103d41a5fa9868e409737, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00066
+    second: {fileID: 2100000, guid: ce0cba59a88d1a045887c7bc9b6c53d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00066.001
+    second: {fileID: 2100000, guid: c650978c6e80d984a9899e046ea6ca59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00067
+    second: {fileID: 2100000, guid: 6d60df8a0fbe2dc44b9e29aee430b601, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00068
+    second: {fileID: 2100000, guid: efdfc5e555b1c6d4fa1a7a0197abf101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00069
+    second: {fileID: 2100000, guid: 7507b87f229adac46babbda8e362c51a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00069.001
+    second: {fileID: 2100000, guid: 085cc23fb09e3dc438fa741938b1af46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00070
+    second: {fileID: 2100000, guid: 476b24b79a6f0f74da476bee4f10cdad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00071
+    second: {fileID: 2100000, guid: 28b7b1d57aa94f944ac84d03c58af7af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00072
+    second: {fileID: 2100000, guid: 32acbfa9d391f704ba84880e983293ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00073
+    second: {fileID: 2100000, guid: 703d929f96d40d545b802f69895fa4f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00074
+    second: {fileID: 2100000, guid: 21567c0591532fb41971f8802db6f223, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00075
+    second: {fileID: 2100000, guid: 9b755f8cfd1fb75418f9f90b9b8f27fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00075.001
+    second: {fileID: 2100000, guid: ca45406079f60fb4eaf5463385a8eca2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00076
+    second: {fileID: 2100000, guid: 2e88484e43f324146aa20e5cf724573b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00077
+    second: {fileID: 2100000, guid: cba19dadfa4612f4c95418a44ccebaeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00078
+    second: {fileID: 2100000, guid: 0b527cecaa8349443ae03cd86564a944, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00079
+    second: {fileID: 2100000, guid: b12b81fa49bd57545af6ed2c85138705, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00079.001
+    second: {fileID: 2100000, guid: 5cac9c07735d22d46bdbfce989a75f45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00080.001
+    second: {fileID: 2100000, guid: 547c5b239bd85e5418389b459d11e65d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00081
+    second: {fileID: 2100000, guid: 535730882f09436438ea8146255223ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00082
+    second: {fileID: 2100000, guid: 3f2ce8b7a23c08a40827d62fb7aa9ff1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00083
+    second: {fileID: 2100000, guid: e8051923190926443b8dd9f7fcc6a4fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00085
+    second: {fileID: 2100000, guid: 75d06a458507660418ce669dca944ca4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00085.001
+    second: {fileID: 2100000, guid: 41f2ee84bcd12594abaa362491858276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00086
+    second: {fileID: 2100000, guid: b5109eef20f11964a8f0bb842d914777, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00087
+    second: {fileID: 2100000, guid: a74e9c1c497fc8649854654c05e3bf6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00088.001
+    second: {fileID: 2100000, guid: fcf624253bb9a8440b5d2e901b528bd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00089
+    second: {fileID: 2100000, guid: b887bd319b98f6b4bafaee9201a057ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00089.001
+    second: {fileID: 2100000, guid: a5af89fbbea105f46bc7171fca57937d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00092
+    second: {fileID: 2100000, guid: 0e037890c0fb1964c80bc67a598d3fc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00093
+    second: {fileID: 2100000, guid: dac3d638feda4da47805b32733dc58ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00094
+    second: {fileID: 2100000, guid: 11db3b4dbe9cfe1469f36af5c6ad5ed8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00095
+    second: {fileID: 2100000, guid: bc6e6bd1637cc39449999e2f90519e4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00095.001
+    second: {fileID: 2100000, guid: d14e04d83ddccc84ca4c192a6cb9db3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00100
+    second: {fileID: 2100000, guid: 58f084afa33d15c4380af6f6204fd73b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00100.001
+    second: {fileID: 2100000, guid: 960b61dff8e11f84e8e20d4805c36b2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00101
+    second: {fileID: 2100000, guid: 5e5b0143901465449b76b5a1b33734f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00101.001
+    second: {fileID: 2100000, guid: b1fc82f27a6e5bb438f46da1f7fccc62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00102
+    second: {fileID: 2100000, guid: 67a770d1f05058d4da66752840a08483, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00105
+    second: {fileID: 2100000, guid: 7e8cd9b4ff9767049abd5cf2b8e255ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00114
+    second: {fileID: 2100000, guid: 1542190a745991c4f8d0b3d8851ea610, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00114.001
+    second: {fileID: 2100000, guid: 1e40b652ef17d2142ad63d723c6896b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00115
+    second: {fileID: 2100000, guid: db6b6c474fa613247853864b77972584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00115.001
+    second: {fileID: 2100000, guid: 93862b22c29d56a49ab444df6c84dc3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00116.001
+    second: {fileID: 2100000, guid: e8d4c3bd041714947bd141d2b2cd382b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00117.001
+    second: {fileID: 2100000, guid: 3e5d164011576a446802ebab53bab053, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00118.001
+    second: {fileID: 2100000, guid: 3f3161d05cb27c345955abe2a33664b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00120
+    second: {fileID: 2100000, guid: 35701f151e165234e92797ff11cba07c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00127
+    second: {fileID: 2100000, guid: 166afebdb88038f499d105aa32fe3278, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00128
+    second: {fileID: 2100000, guid: 3880eb9604e5aac4899af63ac5fdd0ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00131
+    second: {fileID: 2100000, guid: d6f16b8c9137e9b4aa80540a81f8c556, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00135
+    second: {fileID: 2100000, guid: 7bbe32a4c5b54044aa5e25c990fe2ebd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00143
+    second: {fileID: 2100000, guid: 54cad158003edf84fbd0721869cca87d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00147
+    second: {fileID: 2100000, guid: 8d4b0192efe1c534cae4fbda2485b641, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00148
+    second: {fileID: 2100000, guid: 7f212407c233a074381924efb7dee8bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00156
+    second: {fileID: 2100000, guid: db7b38186b50a6f48914ca922edc7ce1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00157
+    second: {fileID: 2100000, guid: 990621a6fd934cf4196f2e8e8dbcf470, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00160
+    second: {fileID: 2100000, guid: 8b79ca8e7b928d14d960819c3b0d6917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00161
+    second: {fileID: 2100000, guid: f83a87da813df5549b9612fed1594c90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00163
+    second: {fileID: 2100000, guid: 4e0547d5e543c0448886b34884b7166b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00172
+    second: {fileID: 2100000, guid: bd932f485de98814596f9ed343b39565, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00173
+    second: {fileID: 2100000, guid: 2a03efb59cbce2b4a9c3f48bbcbed9fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00176
+    second: {fileID: 2100000, guid: 65932f473894fc645af4c567e2e00f30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00181
+    second: {fileID: 2100000, guid: c78b669dacd894d4288ba48d3446e90b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00185
+    second: {fileID: 2100000, guid: 941378b13894901458eae33212b90c55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00186
+    second: {fileID: 2100000, guid: 30fd680a281ee7d4e919f3bc39cc2894, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00189
+    second: {fileID: 2100000, guid: 96d2213eabdf0a641b01ece63ed9689b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00190
+    second: {fileID: 2100000, guid: 8771741b6d20f9343a1335b06708c254, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00196
+    second: {fileID: 2100000, guid: 7aa652343ede391489ec184fef24d983, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00197
+    second: {fileID: 2100000, guid: 4a70df8625f26684abbb3644cb609773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00202
+    second: {fileID: 2100000, guid: 95fab78a9bf35f14a9dee0b369b775a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00203
+    second: {fileID: 2100000, guid: 75e220ee81d0660408d8acfd8d76460f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00207
+    second: {fileID: 2100000, guid: 3a1e17c95e7b22443afdf0c24eec2994, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00217
+    second: {fileID: 2100000, guid: 8d3953d313c881a42bebd8958fe6204a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00224
+    second: {fileID: 2100000, guid: d9270fad1fcb28140aac092033a70507, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00225
+    second: {fileID: 2100000, guid: 4890bcabe020ae44fafa7e19749a8cba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00229
+    second: {fileID: 2100000, guid: 3fd0a0d640ef61b4baa99bdd1ccb45aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00230
+    second: {fileID: 2100000, guid: 77b0270167dbc224baee3c5d9162a08d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00231
+    second: {fileID: 2100000, guid: d7eb7021bce7dba47b1d101b19cf8765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00241
+    second: {fileID: 2100000, guid: 14af8635ae0c122488bbda03c1f02974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00245
+    second: {fileID: 2100000, guid: 2ea6d1200d152854ead8dcc9010b78f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00246
+    second: {fileID: 2100000, guid: e1c73b4b417f6234783af884c6efd449, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00248
+    second: {fileID: 2100000, guid: ea7eda0a5dbd4ae42bf917f54cb23d7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00249
+    second: {fileID: 2100000, guid: bf868ff2c0883e849a3d4a537ef2b1d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00262
+    second: {fileID: 2100000, guid: 40498658c63d8754aa10ec482b4de0e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00263
+    second: {fileID: 2100000, guid: 4cdcbb4281b2ec44b9c1715c32f2f25d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00264
+    second: {fileID: 2100000, guid: 658f55da4f6f932498a00ece66f31ca8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00273
+    second: {fileID: 2100000, guid: c8659bc1c95b16247be2e239d4fddab1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BuildingMat-00296
+    second: {fileID: 2100000, guid: f2660b8514082b64dbc9f390c7c4f805, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

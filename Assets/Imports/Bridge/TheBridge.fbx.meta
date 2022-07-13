@@ -1,0 +1,907 @@
+fileFormatVersion: 2
+guid: b00594778d78f9347b769505b04662e5
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Diagnol
+    second: {fileID: 2100000, guid: 26cda51cbabb20b4eb0ffd42c0bcd861, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontColor
+    second: {fileID: 2100000, guid: f0f52114d1efb9b449b508bce193e897, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kugel_Silver_Uffizi
+    second: {fileID: 2100000, guid: afffb281d5be5764cbae4a6f7941102c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kugel_Silver_Uffizi1
+    second: {fileID: 2100000, guid: a0cab99269f1d7a449f1db29d92c9257, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_3231936245_84b46d05a7
+    second: {fileID: 2100000, guid: 572fdd18327af3344b0f3e63ff675f1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metallic_Silver
+    second: {fileID: 2100000, guid: 75a32f6a2a7772649aa2a07536288dba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Polished_Concrete_Old
+    second: {fileID: 2100000, guid: 9eb1684d72efb684197e0c3a05c3793c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Arch
+    second: {fileID: 2100000, guid: 4a6a4f41952d8e349a25ad9eba5c289a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Center_Lever
+    second: {fileID: 2100000, guid: 37c9151f91f5bf94cb17408a432c08c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Corner_Lever
+    second: {fileID: 2100000, guid: f74ee8e3fbf628242abb3d2ce2ec1519, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Middle_Lever
+    second: {fileID: 2100000, guid: 829e1c50d69baa44b85d3f4f74a89521, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar
+    second: {fileID: 2100000, guid: c5ab43654db9d7f458a76b978bf7c6b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar1
+    second: {fileID: 2100000, guid: fd7d6aa95eea2ef438a0be9711735170, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar10
+    second: {fileID: 2100000, guid: 0db452f9a0dc6514b9337a84751114b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar11
+    second: {fileID: 2100000, guid: d8f9444924d26f8449c65a7323f524dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar12
+    second: {fileID: 2100000, guid: f49b739bab821a7448d7d7700e2f65f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar13
+    second: {fileID: 2100000, guid: eb28c47ce2b80854e810bef4ce26d658, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar14
+    second: {fileID: 2100000, guid: 3cba36b91d77e954b880a0e989c6cc0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar15
+    second: {fileID: 2100000, guid: 97c108e6a3fd45c40903ebf769c6952e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar16
+    second: {fileID: 2100000, guid: 3a8ab86bb85e9864a97dbb9b74d60a05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar17
+    second: {fileID: 2100000, guid: a833c1f5d4c341f4781a919a79d111bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar18
+    second: {fileID: 2100000, guid: 0d658e3332f6cea46b2e438b06a63ffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar19
+    second: {fileID: 2100000, guid: 130f6ef636e730447a63fc62396e8c0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar2
+    second: {fileID: 2100000, guid: 46ffd52bd49c7b447bb34ae5f08f303a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar20
+    second: {fileID: 2100000, guid: 8d665d1b200655e4c98289b99148826e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar21
+    second: {fileID: 2100000, guid: 6a65af847b96b9941b4d327c8888fad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar22
+    second: {fileID: 2100000, guid: 1e16e31c56d65f047acc7eb94fd5cba9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar23
+    second: {fileID: 2100000, guid: dc7dc1934231afa4e999e9a98bc3ef9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar24
+    second: {fileID: 2100000, guid: a5b7f4fa640159948bef03263d8931f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar25
+    second: {fileID: 2100000, guid: 37835bd47c289af43a301a9ed3951396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar26
+    second: {fileID: 2100000, guid: d7c2e235d9d94de4aaa19beaa685cdfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar27
+    second: {fileID: 2100000, guid: 1aba1ae9ca42b5248998c4a807395ba6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar28
+    second: {fileID: 2100000, guid: 33b95cdc2c27f8c4c9b2b698f8809b8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar29
+    second: {fileID: 2100000, guid: 95ec3f967b7c3c844931a6e92044dee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar3
+    second: {fileID: 2100000, guid: 5b92805e783ff3b4ba65995b41c57974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar30
+    second: {fileID: 2100000, guid: ef87c9a4000fbb24d9955123d7a41a67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar31
+    second: {fileID: 2100000, guid: 4b2e9b73270d3e4449c4c5134038e911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar32
+    second: {fileID: 2100000, guid: 185bd035dbb3684498b88c8f6735adad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar33
+    second: {fileID: 2100000, guid: 0b0f538a4200dd94486617cefc78df4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar34
+    second: {fileID: 2100000, guid: 71a84555d00d9d348ad040fa9705f24b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar35
+    second: {fileID: 2100000, guid: 9d9c188419500e24fb0dd684cab71481, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar36
+    second: {fileID: 2100000, guid: 507df3609a5c99947b8371c21d4fb0f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar37
+    second: {fileID: 2100000, guid: f5af6e93fbeb3e3418189d36fe9db737, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar38
+    second: {fileID: 2100000, guid: e38b77a48938dd942bb3d4b3ec1f4eab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar39
+    second: {fileID: 2100000, guid: e4e038c5fdec7654ea67446f6f358f91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar4
+    second: {fileID: 2100000, guid: a006568a17558e1418c32db867c06323, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar40
+    second: {fileID: 2100000, guid: cba5e3167af15884e96f1e1be4f5c7bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar41
+    second: {fileID: 2100000, guid: a32d914af2728134e8694f220daec969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar42
+    second: {fileID: 2100000, guid: e66758675c3d3914a86c8b9681873376, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar43
+    second: {fileID: 2100000, guid: 1ce963d9ddea155459b0e4c87712a213, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar44
+    second: {fileID: 2100000, guid: 432d18d7cf2547d48beb8d434d9567bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar45
+    second: {fileID: 2100000, guid: 58ff5590f186748479883ca944ee95e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar46
+    second: {fileID: 2100000, guid: e4c9ec6f3357d5b4a8b949741ee8bf12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar47
+    second: {fileID: 2100000, guid: 2353fef23d9e81d4bb5b034665ea5d89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar48
+    second: {fileID: 2100000, guid: 7f7428ff8a1f5b04c8e5894b0a9aa3df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar49
+    second: {fileID: 2100000, guid: f2eb69446838b7142adf5c3f08d28c52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar5
+    second: {fileID: 2100000, guid: 33722db955d342748b1fb37e66e5c26c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar50
+    second: {fileID: 2100000, guid: da59f78e5ac1e3043a974de58ad52d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar51
+    second: {fileID: 2100000, guid: 23d142bb242b43e4ba7b6f9f1ceaeec8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar52
+    second: {fileID: 2100000, guid: 8ed4656a51d881b40a4e4c58287ba5b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar53
+    second: {fileID: 2100000, guid: cb94e85eb9657a141a2056497a471f85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar54
+    second: {fileID: 2100000, guid: 83d5b2a7b0de00447bfeafa26c36ea48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar55
+    second: {fileID: 2100000, guid: 283644130007bcc4a98ac5e6c8f7de65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar56
+    second: {fileID: 2100000, guid: ac768b6a6b57fb84c9f502ab48203bcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar57
+    second: {fileID: 2100000, guid: 22d76fbc4f04a104186cabf5a091e9ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar58
+    second: {fileID: 2100000, guid: 29cea91a2078e9244a46ee1a012c4b0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar59
+    second: {fileID: 2100000, guid: c833bc1bac8f57a4f8215e22ff0e5872, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar6
+    second: {fileID: 2100000, guid: 6156f57b0f0334742ae9e1a1bc5beddf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar60
+    second: {fileID: 2100000, guid: 6e8ce90b39196714f82eadb26e912d64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar61
+    second: {fileID: 2100000, guid: 47761831a67c96f43bfc8056e57a4dbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar62
+    second: {fileID: 2100000, guid: 51edf886ea00622479f8bcebdcdeaaae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar63
+    second: {fileID: 2100000, guid: 93820cceb25c66d49a628de2a44a3890, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar64
+    second: {fileID: 2100000, guid: fb610d819ce885f48b3c2245bdbd2711, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar65
+    second: {fileID: 2100000, guid: 9e795aa379651ca4497b4bea0be9899a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar66
+    second: {fileID: 2100000, guid: bf62233402bbe6348abed1babc6b04c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar67
+    second: {fileID: 2100000, guid: 236b8f095b5862749a0dc057acc1c03d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar68
+    second: {fileID: 2100000, guid: 3639600727de71545815023866057274, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar69
+    second: {fileID: 2100000, guid: effca087e4dd238439c271f8b0175014, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar7
+    second: {fileID: 2100000, guid: c3bfc4536d292ea45bad9fdedb853656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar70
+    second: {fileID: 2100000, guid: 851db45b7a47af2499bf012f0014b27e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar71
+    second: {fileID: 2100000, guid: ad2d1c3a747e48c4f998bea828741d48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar72
+    second: {fileID: 2100000, guid: 6ec22e19fd7a9c041ad3600a2ae7dda8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar73
+    second: {fileID: 2100000, guid: 35deb9bad297dd84bab13d0ee712293a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar74
+    second: {fileID: 2100000, guid: 881bdaec8a4ea91438438f91544a5dde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar75
+    second: {fileID: 2100000, guid: b5f3f218709234a41b7658b50386d5e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar76
+    second: {fileID: 2100000, guid: 52a35c720d66aaa45817887ddc77da3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar77
+    second: {fileID: 2100000, guid: 7f2a33f974e48c740a9089c80235c98b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar78
+    second: {fileID: 2100000, guid: 3fbd7cbcf84073d4e806e7822f38aeea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar79
+    second: {fileID: 2100000, guid: ebce1d8172768394887097a5b23d0986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar8
+    second: {fileID: 2100000, guid: cedf3c1f1a51be8438913fee2a44e573, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar80
+    second: {fileID: 2100000, guid: e5348597df247714d9d8fdbf94b2ae58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar81
+    second: {fileID: 2100000, guid: b15c6a4f8adf6534daa60724ee09051d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar82
+    second: {fileID: 2100000, guid: b465be8995efe014bbb6b88f8bc172c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pillar9
+    second: {fileID: 2100000, guid: 223eb9d7076891148bcb3fc91178bdf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Pole
+    second: {fileID: 2100000, guid: 5df37afcc2d375543b8e20a8c1cc54ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Railing
+    second: {fileID: 2100000, guid: f9112cc5fdf7ec34a997a0fe04aa8011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Road
+    second: {fileID: 2100000, guid: 2fb65b24f802077498b7e89eae5d56de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Side_Lever
+    second: {fileID: 2100000, guid: 289f53fdbd003f34f865a7495e777cf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Side_Lever1
+    second: {fileID: 2100000, guid: b8237cb684be15e4e9815249d1ceaf2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Side_Lever2
+    second: {fileID: 2100000, guid: a615c1e9d217c6e4fb4288c05642ebd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Side_Lever3
+    second: {fileID: 2100000, guid: 65e3449a59b96174c819a80aea05f2cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Side_Lever4
+    second: {fileID: 2100000, guid: 079b89fc09377f54e8469cd4a0acd956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Top
+    second: {fileID: 2100000, guid: 042f0a29721f6bf4185aa637cdd5ef7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Top_railing
+    second: {fileID: 2100000, guid: a4b11d5ba69696449946169b869e9008, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Top_railing1
+    second: {fileID: 2100000, guid: aa5d6a13f4bfa34499e2bdb32a273dae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Tower_Top
+    second: {fileID: 2100000, guid: 72624f6d61536db47918d4c0111aa7d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_Tria
+    second: {fileID: 2100000, guid: 024af12c69b06b144af90f9fca0df452, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Queensboro_Bridge_link
+    second: {fileID: 2100000, guid: ba78f38533728bd4e81545084a574974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___lower_shell
+    second: {fileID: 2100000, guid: 4e9aaf3a56160ef46855aea802533a0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___lower_shell1
+    second: {fileID: 2100000, guid: cf3c3a101692e014ba1dda32a1cf163b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___lower_shell2
+    second: {fileID: 2100000, guid: eaf132f11c4d6e546a33e89766640484, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___lower_shell3
+    second: {fileID: 2100000, guid: dbf4f52d6133f1946850f8853ddc8a41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___upper_shell
+    second: {fileID: 2100000, guid: d2fe1a6c00134b6458b274db20c98892, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___upper_shell1
+    second: {fileID: 2100000, guid: 56210251a58c6a44588eb794c6a8c842, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___upper_shell2
+    second: {fileID: 2100000, guid: c092167f4e669cf4194cdfb7e45d82d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___upper_shell3
+    second: {fileID: 2100000, guid: 64539461dd6152044869375d6c8c899c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___upper_shell4
+    second: {fileID: 2100000, guid: 5d660a9a46aa87c4b8d4789a6cd4ac09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___upper_shell5
+    second: {fileID: 2100000, guid: 68c404e83617db44c87bdf4cb503e8fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___upper_shell6
+    second: {fileID: 2100000, guid: 60f0d9294a0c2d146900e2496f9231d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___upper_shell7
+    second: {fileID: 2100000, guid: ff3d8e6871eb8484ebdd9e8ddd67be00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___upper_shell8
+    second: {fileID: 2100000, guid: 7dc68c4f03c9e5148ace6e5fc9003139, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_NS___upper_shell9
+    second: {fileID: 2100000, guid: af5aef1c271fe2c4f833ac441d47561d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_east___lower_shell
+    second: {fileID: 2100000, guid: 0729c3725b8e65e4697cd844d569cd49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_east___lower_shell1
+    second: {fileID: 2100000, guid: 132e27bfb473ccf4a9747ef61c38fde5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_east___lower_shell2
+    second: {fileID: 2100000, guid: e9ca8dc70b4e752408d2e266a5210d96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_east___lower_shell3
+    second: {fileID: 2100000, guid: 3a933f9cbbb4e8e4dbbefaa777b1086b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_east___upper_shell
+    second: {fileID: 2100000, guid: 7df7e0a631962b74093cdaa6f6d020e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_east___upper_shell1
+    second: {fileID: 2100000, guid: 9d85f9eb4dc312f4cabdf7a0cf671c1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_east___upper_shell2
+    second: {fileID: 2100000, guid: e830ee31f0aafd5428fc54078810dfb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_east___upper_shell3
+    second: {fileID: 2100000, guid: e6c4d0553b97ab44bbff973ec58faa70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RI_lattice_tower_east___upper_shell4
+    second: {fileID: 2100000, guid: 6291b643bf63dbe4a856fa81eb7e5f37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cable
+    second: {fileID: 2100000, guid: 5b93df53c41f79d41a12512703acb702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_cable_clamp
+    second: {fileID: 2100000, guid: 54347196b5deb1642b82a90e12dc41f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_cable_clamp1
+    second: {fileID: 2100000, guid: 6ff25fa4eba90fe42a35e724ec468e8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_north
+    second: {fileID: 2100000, guid: 0ed20837d642c5b4d94727c0b1253139, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_north1
+    second: {fileID: 2100000, guid: dc8b0b49c9322cb4da1c1d79100609b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_north_2
+    second: {fileID: 2100000, guid: 0b6eca07b831c734f9e64e7197d765b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_north_2_1
+    second: {fileID: 2100000, guid: ce5e579de5e5ba244a2efed403ee3655, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_north_3
+    second: {fileID: 2100000, guid: b28ccfecffe9b8441b38e3e0edcc35fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_north_3_1
+    second: {fileID: 2100000, guid: 21a58485f5faf81489ddffad4fec538e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_side
+    second: {fileID: 2100000, guid: e526cf4fd0e57154d90ca7c0fdb8571e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_side1
+    second: {fileID: 2100000, guid: 8d4b3d806de367d4685b45261d0e2e86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_swing
+    second: {fileID: 2100000, guid: f8808d9075ddcd04795fd763cc33d91a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: car_swing2
+    second: {fileID: 2100000, guid: 1303554cf443ead4a86e204482c24ef6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rail
+    second: {fileID: 2100000, guid: 55319d8cb1d695745af924f7c789f748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rail_brace
+    second: {fileID: 2100000, guid: 6fc23349be8465f4f9fe8f19d3c37ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red_carpaint_png2f94dec3_1426_4fda_b73b_36dcd8d82b71Larger
+    second: {fileID: 2100000, guid: 60cedfd15c165f14e8e3463b8c769c2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ri_tower_center_ew
+    second: {fileID: 2100000, guid: e4e7cae52fdc90c499a18e69251e5f45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ri_tower_center_ew1
+    second: {fileID: 2100000, guid: d84bbbd8d92dca545aee9d8c27ce145b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ri_tower_crown
+    second: {fileID: 2100000, guid: 09fb8a01e8e50d2418e2d558422cb2b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ri_tower_crown2
+    second: {fileID: 2100000, guid: 12f581cb83f491d43b5697594dbf1826, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ri_tower_crown2_1
+    second: {fileID: 2100000, guid: 6a7708129b2c6094e82298105d4d87c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ri_tower_crown2_2
+    second: {fileID: 2100000, guid: 2ca338740e5ef5749bbd15a186ac7644, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ri_tower_crown2_3
+    second: {fileID: 2100000, guid: ade8e71101db547408dbab3893b8ffb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ri_tower_crown2_4
+    second: {fileID: 2100000, guid: e20c0c9f896329c4c95ccc55ab6867db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roller_rail
+    second: {fileID: 2100000, guid: 6cd1d473d67795040914fd2d9b6663f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: roller_rail1
+    second: {fileID: 2100000, guid: 5532e16a1f5502e4385a7547bdede075, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower_center_base
+    second: {fileID: 2100000, guid: 2252e0f00d3e54740a36c69861d5a2a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower_center_base1
+    second: {fileID: 2100000, guid: c4b21ccd462825c4888f7129b4874bd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower_rail
+    second: {fileID: 2100000, guid: 9d2344555e9a1e2459a1ffc06fbdbc23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tower_roller
+    second: {fileID: 2100000, guid: c4f2204b1bf32da4d890ffc7bbd7a0f3, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
