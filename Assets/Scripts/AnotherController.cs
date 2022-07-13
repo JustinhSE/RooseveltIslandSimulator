@@ -12,6 +12,7 @@ public class AnotherController : MonoBehaviour
     }
 
     // Update is called once per frame
+    //Another Controller for a second cube that is being used to test correct perspectives
     private void Update()
     {
         var horizontal = Input.GetAxis("Horizontal");

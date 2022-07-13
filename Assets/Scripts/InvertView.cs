@@ -5,6 +5,7 @@ using UnityEngine;
 public class InvertView : MonoBehaviour
 {
     // Start is called before the first frame update
+    // Invert view, mirror for back view
     Camera backcam;
 
     void Start()
