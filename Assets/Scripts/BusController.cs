@@ -19,6 +19,7 @@ public class BusController : MonoBehaviour
         transform.Translate(new Vector3(horizontal, 0, vertical) * (speed * Time.deltaTime));
         if (Input.GetKey(KeyCode.X))
             transform.Rotate(Vector3.up * speed * Time.deltaTime);
+            
 
         if (Input.GetKey(KeyCode.Z))
             transform.Rotate(-Vector3.up * speed * Time.deltaTime);
