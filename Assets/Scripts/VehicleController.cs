@@ -329,7 +329,7 @@ public class VehicleController : MonoBehaviour
             var roadObject = hit.collider.transform.parent == null
                 ? hit.collider.transform
                 : hit.collider.transform.parent;
-            CurrentSurface = roadType == "roads" || roadObject.CompareTag("Road")
+            CurrentSurface = roadType == "roads" //|| roadObject.CompareTag("Road")
                 ? RoadSurface.Tarmac
                 : RoadSurface.Offroad;
         }
