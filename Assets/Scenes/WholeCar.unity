@@ -220,12 +220,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &90012328 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1047169499736000, guid: 76bfb64261b6b4eb080dcd0e2fa84572,
-    type: 3}
-  m_PrefabInstance: {fileID: 1193553462}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &507744852 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 164536, guid: 76bfb64261b6b4eb080dcd0e2fa84572,
@@ -373,12 +367,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
---- !u!23 &942194546 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6078512373146470322, guid: 76bfb64261b6b4eb080dcd0e2fa84572,
-    type: 3}
-  m_PrefabInstance: {fileID: 1193553462}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1024319120
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,7 +380,6 @@ GameObject:
   - component: {fileID: 1024319122}
   - component: {fileID: 1024319121}
   - component: {fileID: 1024319125}
-  - component: {fileID: 1024319126}
   m_Layer: 0
   m_Name: rightCamera
   m_TagString: Untagged
@@ -512,21 +499,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17b4a0a72ec082f4dba8018e11b70a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2049911831}
---- !u!114 &1024319126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024319120}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37b65ddeaa9d7474cb4054d844dd4d7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  car: {fileID: 2049911831}
-  offset: {x: 0, y: 0, z: 0}
+  player: {fileID: 1193553463}
+  width: 256
+  height: 256
+  flipHorizontal: 0
 --- !u!1 &1116981040
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,7 +963,6 @@ GameObject:
   - component: {fileID: 1569039333}
   - component: {fileID: 1569039332}
   - component: {fileID: 1569039336}
-  - component: {fileID: 1569039337}
   m_Layer: 0
   m_Name: leftCameraSide
   m_TagString: MainCamera
@@ -1107,20 +1082,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 507744852}
---- !u!114 &1569039337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569039331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37b65ddeaa9d7474cb4054d844dd4d7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  car: {fileID: 1193553463}
-  offset: {x: 0, y: 0, z: 0}
+  width: 256
+  height: 256
+  flipHorizontal: 0
 --- !u!1 &1582058242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,7 +1196,6 @@ GameObject:
   - component: {fileID: 1585257875}
   - component: {fileID: 1585257879}
   - component: {fileID: 1585257880}
-  - component: {fileID: 1585257881}
   m_Layer: 0
   m_Name: FrontCamera
   m_TagString: Untagged
@@ -1364,20 +1327,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1193553463}
---- !u!114 &1585257881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585257874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37b65ddeaa9d7474cb4054d844dd4d7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  car: {fileID: 1193553463}
-  offset: {x: 0, y: 0, z: 0}
+  width: 256
+  height: 256
+  flipHorizontal: 0
 --- !u!1 &1598497307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,7 +1343,6 @@ GameObject:
   - component: {fileID: 1598497309}
   - component: {fileID: 1598497308}
   - component: {fileID: 1598497312}
-  - component: {fileID: 1598497313}
   m_Layer: 0
   m_Name: rightCameraSIde
   m_TagString: MainCamera
@@ -1511,20 +1462,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1870240739}
---- !u!114 &1598497313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1598497307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37b65ddeaa9d7474cb4054d844dd4d7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  car: {fileID: 1193553463}
-  offset: {x: 0, y: 0, z: 0}
+  width: 256
+  height: 256
+  flipHorizontal: 0
 --- !u!1 &1643852870
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,7 +1478,6 @@ GameObject:
   - component: {fileID: 1643852872}
   - component: {fileID: 1643852871}
   - component: {fileID: 1643852875}
-  - component: {fileID: 1643852876}
   m_Layer: 0
   m_Name: leftCamera
   m_TagString: Untagged
@@ -1657,21 +1596,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17b4a0a72ec082f4dba8018e11b70a5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2037233148}
---- !u!114 &1643852876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643852870}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37b65ddeaa9d7474cb4054d844dd4d7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  car: {fileID: 2037233148}
-  offset: {x: 0, y: 0, z: 0}
+  player: {fileID: 1193553463}
+  width: 256
+  height: 256
+  flipHorizontal: 0
 --- !u!1 &1716885457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,8 +1717,6 @@ GameObject:
   - component: {fileID: 1999843049}
   - component: {fileID: 1999843052}
   - component: {fileID: 1999843054}
-  - component: {fileID: 1999843055}
-  - component: {fileID: 1999843056}
   m_Layer: 0
   m_Name: backCamera
   m_TagString: MainCamera
@@ -1910,40 +1836,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1193553463}
---- !u!114 &1999843055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999843048}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5a578309b7a24b46ba988c6dcb2838b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ReferenceMaterial: {fileID: -3507052999773590596, guid: ea87e38fc595bf0489fabec9fb9d43e2,
-    type: 3}
-  TargetRenderer: {fileID: 942194546}
-  rt: {fileID: 8400000, guid: 9b1c1c6163b86bb4e80691f66d13bf61, type: 2}
   width: 256
   height: 256
-  rtf: 0
   flipHorizontal: 1
---- !u!114 &1999843056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999843048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37b65ddeaa9d7474cb4054d844dd4d7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  car: {fileID: 90012328}
-  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &2004919173
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,15 +1936,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2037233148 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1447330453008390, guid: 76bfb64261b6b4eb080dcd0e2fa84572,
-    type: 3}
-  m_PrefabInstance: {fileID: 1193553462}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2049911831 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1391340066061090, guid: 76bfb64261b6b4eb080dcd0e2fa84572,
-    type: 3}
-  m_PrefabInstance: {fileID: 1193553462}
-  m_PrefabAsset: {fileID: 0}
