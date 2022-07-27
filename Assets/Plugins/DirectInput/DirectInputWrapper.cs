@@ -30,6 +30,7 @@ public class DirectInputWrapper {
     public static extern int DevicesCount();
 
     [DllImport("DirectInputPlugin", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.Cdecl)]
+
     public static extern IntPtr GetProductName(int device);
 
     [DllImport("DirectInputPlugin", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.Cdecl)]

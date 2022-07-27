@@ -3035,10 +3035,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car
       objectReference: {fileID: 0}
+    - target: {fileID: 8371031809304855764, guid: 3dbae2f2863ee4d46b65df10f07a5226,
+        type: 3}
+      propertyPath: FoundSteeringWheels
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 8371031809304855764, guid: 3dbae2f2863ee4d46b65df10f07a5226, type: 3}
-    - {fileID: 8457819816216479738, guid: 3dbae2f2863ee4d46b65df10f07a5226, type: 3}
-    - {fileID: 7215359722045899004, guid: 3dbae2f2863ee4d46b65df10f07a5226, type: 3}
     - {fileID: 3536491645684782334, guid: 3dbae2f2863ee4d46b65df10f07a5226, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3dbae2f2863ee4d46b65df10f07a5226, type: 3}
 --- !u!1001 &1596952760
