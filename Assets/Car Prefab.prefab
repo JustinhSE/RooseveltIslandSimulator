@@ -629,7 +629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4938687274256881652}
   m_Layer: 0
-  m_Name: New Prefab
+  m_Name: Car Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
