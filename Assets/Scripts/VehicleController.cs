@@ -493,7 +493,6 @@ public class VehicleController : MonoBehaviour
 
     private void OnGUI()
     {
-        /*
         GUI.Label(new Rect(10, 10, 500, 200), "GEAR " + (Mathf.RoundToInt(currentGear)));
         GUI.Label(new Rect(10, 30, 500, 200), "RPM " + Mathf.RoundToInt(currentRPM));
         GUI.Label(new Rect(10, 50, 500, 200), "MPH " + Mathf.RoundToInt(currentSpeed));
@@ -503,6 +502,5 @@ public class VehicleController : MonoBehaviour
         GUI.Label(new Rect(10, 130, 500, 200), "TRACTIONR " + tractionR.ToString("F3"));
         GUI.Label(new Rect(10, 160, 500, 200), "TRACTION " + rtraction.ToString("F3"));
         GUI.Label(new Rect(10, 180, 500, 200), "TRACTIONR " + rtractionR.ToString("F3"));
-        */
     }
 }
