@@ -86,6 +86,7 @@ public class SteeringWheelInputController : InputController {
 
 
         bool ff0 = DirectInputWrapper.HasForceFeedback(0); /// Thios part mworks for now as the main inputs are always 0 or 1 we need code here though tat jumps over the master wheel shpould it be present
+        Debug.Log("Amount of Devices: " + DirectInputWrapper.DevicesCount());
         if (DirectInputWrapper.DevicesCount() > 1)  // steering one and two should be padles and participant steering wheel
         {
             bool ff1 = DirectInputWrapper.HasForceFeedback(1);
@@ -356,7 +357,7 @@ public void InitSpringForce(int sat, int coeff)
 				accelInput = state.rglSlider [0] / -32768f;
            
 
-				// Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
+				Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
 
 
 				/* x = state.lX;
@@ -422,7 +423,7 @@ public void InitSpringForce(int sat, int coeff)
 						gas = state.lY;
 
 					}
-					//Debug.Log(brake.ToString() + " break and gas" + gas.ToString());
+					Debug.Log(brake.ToString() + " break and gas" + gas.ToString());
 					float totalGas = (maxGas - minGas);
 					float totalBrake = (maxBrake - minBrake);
 
@@ -458,4 +459,6 @@ public void InitSpringForce(int sat, int coeff)
     {
         return MasterSteeringWheel;
     }
+  
 }
+

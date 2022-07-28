@@ -216,6 +216,7 @@ public class VehicleController : MonoBehaviour
     {
         //calculate how many wheels are driving
         numberOfDrivingWheels = axles.Where(a => a.motor).Count() * 2;
+        Debug.Log(numberOfDrivingWheels);
     }
 
     private void AutoGearBox()
@@ -502,5 +503,6 @@ public class VehicleController : MonoBehaviour
         GUI.Label(new Rect(10, 130, 500, 200), "TRACTIONR " + tractionR.ToString("F3"));
         GUI.Label(new Rect(10, 160, 500, 200), "TRACTION " + rtraction.ToString("F3"));
         GUI.Label(new Rect(10, 180, 500, 200), "TRACTIONR " + rtractionR.ToString("F3"));
+        
     }
 }
