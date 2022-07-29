@@ -83,8 +83,6 @@ public class SteeringWheelInputController : InputController {
         MasterSteeringWheel = false;
         masterIndex = reportMasterWheel("FANATEC CSL Elite Wheel Base");
         if (masterIndex > -1) { MasterSteeringWheel = true; }
-
-
         bool ff0 = DirectInputWrapper.HasForceFeedback(0); /// Thios part mworks for now as the main inputs are always 0 or 1 we need code here though tat jumps over the master wheel shpould it be present
         Debug.Log("Amount of Devices: " + DirectInputWrapper.DevicesCount());
         if (DirectInputWrapper.DevicesCount() > 1)  // steering one and two should be padles and participant steering wheel
@@ -298,44 +296,8 @@ public void InitSpringForce(int sat, int coeff)
     {
         if (inited != this)
             return;
-
-        //check for SelectLeft/right actions
-        if(currentSelectState == SelectState.REST && GetSteerInput() < -selectThreshold)
-        {
-            currentSelectState = SelectState.LEFT;
-            TriggerEvent(EventType.SELECT_CHOICE_LEFT);
-        }
-        else if(currentSelectState == SelectState.LEFT && GetSteerInput() > -selectThreshold)
-        {
-            currentSelectState = SelectState.REST;
-        }
-        else if(currentSelectState == SelectState.REST && GetSteerInput() > selectThreshold)
-        {
-            currentSelectState = SelectState.RIGHT;
-            TriggerEvent(EventType.SELECT_CHOICE_RIGHT);
-        }
-        else if(currentSelectState == SelectState.RIGHT && GetSteerInput() < selectThreshold)
-        {
-            currentSelectState = SelectState.REST;
-        }
-
-        //Check for Throttle confirm
-        if(isConfirmDown && GetAccelBrakeInput() < selectThreshold)
-        {
-            isConfirmDown = false;
-        }       
-        else if(!isConfirmDown && GetAccelBrakeInput() > selectThreshold)
-        {
-            isConfirmDown = true;
-            if(Time.timeSinceLevelLoad > confirmTimeout)
-            {
-                TriggerEvent(EventType.SELECT_CHOICE_CONFIRM);
-            }
-        }
-
-
-
-		if (Application.platform != RuntimePlatform.OSXEditor) {
+        
+        if (Application.platform != RuntimePlatform.OSXEditor) {
 			DirectInputWrapper.Update ();
 
 			{
@@ -357,7 +319,7 @@ public void InitSpringForce(int sat, int coeff)
 				accelInput = state.rglSlider [0] / -32768f;
            
 
-				//Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
+				Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
 
 
 				/* x = state.lX;
@@ -383,8 +345,16 @@ public void InitSpringForce(int sat, int coeff)
 					}
 
 				}
-                Debug.Log("Number of Devices: " + DirectInputWrapper.DevicesCount());
-				if (DirectInputWrapper.DevicesCount () > 1 || MasterSteeringWheel) {
+
+                int x = 0;
+                if (x == 0)
+                {
+                    Debug.Log("Number of Devices: " + DirectInputWrapper.DevicesCount());
+                    x = 1;
+                }
+                
+
+                if (DirectInputWrapper.DevicesCount () > 1 || MasterSteeringWheel) {
 
 					int gas = 0;
 					int brake = 0;
