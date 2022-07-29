@@ -3130,7 +3130,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: dae147fac87185c45b4dcdead139247a, type: 2}
+      objectReference: {fileID: 2100000, guid: 4d65f23791f5c7341b1b7cdc7ec47e71, type: 2}
     - target: {fileID: 4628009433671041129, guid: 3dbae2f2863ee4d46b65df10f07a5226,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4114,18 +4114,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FFBGain: 1
---- !u!114 &2002504632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002504604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6502c86b524078f4086f9e5f422679b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2008043716
 PrefabInstance:
   m_ObjectHideFlags: 0

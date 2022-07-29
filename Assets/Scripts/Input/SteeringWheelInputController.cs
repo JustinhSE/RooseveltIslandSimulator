@@ -105,7 +105,7 @@ public class SteeringWheelInputController : InputController {
                 Debug.Log("STEERINGWHEEL: Multiple devices and couldn't find steering wheel device index");
         }
 
-      
+        Debug.Log("Status of Wheel: " + MasterSteeringWheel);
         if (MasterSteeringWheel) {
         minBrake = AppController.Instance.appSettings.minBrakeFanatec;
         maxBrake = AppController.Instance.appSettings.maxBrakeFanatec;
@@ -357,7 +357,7 @@ public void InitSpringForce(int sat, int coeff)
 				accelInput = state.rglSlider [0] / -32768f;
            
 
-				Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
+				//Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
 
 
 				/* x = state.lX;
@@ -383,6 +383,7 @@ public void InitSpringForce(int sat, int coeff)
 					}
 
 				}
+                Debug.Log("Number of Devices: " + DirectInputWrapper.DevicesCount());
 				if (DirectInputWrapper.DevicesCount () > 1 || MasterSteeringWheel) {
 
 					int gas = 0;

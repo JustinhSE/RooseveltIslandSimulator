@@ -216,7 +216,7 @@ public class VehicleController : MonoBehaviour
     {
         //calculate how many wheels are driving
         numberOfDrivingWheels = axles.Where(a => a.motor).Count() * 2;
-        Debug.Log(numberOfDrivingWheels);
+        Debug.Log("Number of Wheels : " + numberOfDrivingWheels);
     }
 
     private void AutoGearBox()
