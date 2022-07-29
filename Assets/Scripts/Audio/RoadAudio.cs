@@ -68,8 +68,8 @@ public class RoadAudio : MonoBehaviour {
 
     public void PlaySurfaceBump()
     {
-        AudioClip clip = surfaceBumpClips[Mathf.RoundToInt(Random.Range(0, surfaceBumpClips.Count - 1))];
-        surfaceBump.PlayOneShot(clip, surfaceBumpSpeedCurve.Evaluate(speed / 100));
+        //AudioClip clip = surfaceBumpClips[Mathf.RoundToInt(Random.Range(0, surfaceBumpClips.Count - 1))];
+        //surfaceBump.PlayOneShot(clip, surfaceBumpSpeedCurve.Evaluate(speed / 100));
     }
 
     public void Update()

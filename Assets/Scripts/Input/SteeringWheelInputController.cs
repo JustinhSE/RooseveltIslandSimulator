@@ -300,7 +300,7 @@ public void InitSpringForce(int sat, int coeff)
         if (Application.platform != RuntimePlatform.OSXEditor) {
 			DirectInputWrapper.Update ();
 
-			{
+			
 
 				DeviceState state;
 				DeviceState slaveState;
@@ -316,8 +316,8 @@ public void InitSpringForce(int sat, int coeff)
 				}
 
 				steerInput = state.lX / 32768f;
-				accelInput = state.rglSlider [0] / -32768f;
-           
+				//accelInput = state.rglSlider [0] / -32768f;
+                Debug.Log(DirectInputWrapper.GetProductNameManaged(wheelIndex));
 
 				Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
 
@@ -345,13 +345,6 @@ public void InitSpringForce(int sat, int coeff)
 					}
 
 				}
-
-                int x = 0;
-                if (x == 0)
-                {
-                    Debug.Log("Number of Devices: " + DirectInputWrapper.DevicesCount());
-                    x = 1;
-                }
                 
 
                 if (DirectInputWrapper.DevicesCount () > 1 || MasterSteeringWheel) {
@@ -402,7 +395,7 @@ public void InitSpringForce(int sat, int coeff)
 				}
 			}
 
-		}
+		
     }
 
     public override float GetAccelBrakeInput()
