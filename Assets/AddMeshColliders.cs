@@ -5,24 +5,32 @@ using UnityEngine;
 public class AddMeshColliders : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start () {
- 
-        // Iterate through all child objects of our Geometry object
-        foreach (Transform childObject in transform)
+    void Start()
+    {
+        List<GameObject> objects = GetAllObjectsInScene();
+        foreach (GameObject childObject in objects)
         {
-            // First we get the Mesh attached to the child object
-            Mesh mesh = childObject.gameObject.GetComponent<MeshFilter>().mesh;
- 
-            // If we've found a mesh we can use it to add a collider
-            if (mesh != null)
-            {                      
+            if (childObject.gameObject.GetComponent<MeshFilter>().mesh != null)
+            {
+                Mesh mesh = childObject.gameObject.GetComponent<MeshFilter>().mesh;
                 // Add a new MeshCollider to the child object
                 MeshCollider meshCollider = childObject.gameObject.AddComponent<MeshCollider>();
- 
-                // Finaly we set the Mesh in the MeshCollider
-                meshCollider.sharedMesh = mesh;
             }
+
         }
+    }
+
+    private static List<GameObject> GetAllObjectsInScene()
+    {
+        List<GameObject> objectsInScene = new List<GameObject>();
+
+        foreach (GameObject go in Resources.FindObjectsOfTypeAll(typeof(GameObject)) as GameObject[])
+        {
+            if (go.hideFlags != HideFlags.None)
+                continue;
+            objectsInScene.Add(go);
+        }
+        return objectsInScene;
     }
 
 }

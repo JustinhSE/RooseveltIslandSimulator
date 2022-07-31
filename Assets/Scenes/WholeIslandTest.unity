@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.48395744, g: 0.57573867, b: 0.68019843, a: 1}
+  m_IndirectSpecularColor: {r: 0.48396292, g: 0.5757421, b: 0.6802008, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9055,7 +9055,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e4ba6e2cc8666c648bd54b68db8dfd4b, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 487400145531371279, guid: 78fdf95c4c2d7384a8957ee310d2b067, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 78fdf95c4c2d7384a8957ee310d2b067, type: 3}
 --- !u!1001 &73668010
 PrefabInstance:
@@ -9888,6 +9889,26 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e4ba6e2cc8666c648bd54b68db8dfd4b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78fdf95c4c2d7384a8957ee310d2b067, type: 3}
+--- !u!1 &401010876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2985770805337541073, guid: 75c34e38e89d82d4bb842ec8ce90bf15,
+    type: 3}
+  m_PrefabInstance: {fileID: 5033340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &401010880
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401010876}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -769139893623918702, guid: 75c34e38e89d82d4bb842ec8ce90bf15, type: 3}
 --- !u!1 &411591065 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1507636620937791836, guid: 7097ba7ba649e1f41bba232312bdcbd8,
@@ -11100,6 +11121,26 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e4ba6e2cc8666c648bd54b68db8dfd4b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7ebb2b5789a2be45b7bd26b3b9d50aa, type: 3}
+--- !u!1 &1185806644 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 78fdf95c4c2d7384a8957ee310d2b067,
+    type: 3}
+  m_PrefabInstance: {fileID: 40765742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1185806649
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185806644}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 7163db7426b13a345b09fa28a500a5e6, type: 3}
 --- !u!1001 &1188648483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11524,6 +11565,26 @@ LightProbeGroup:
   - {x: -0.8738291, y: 0.51661086, z: 2.5225298}
   - {x: -1.3810283, y: 0.51661086, z: 2.9244456}
   m_Dering: 0
+--- !u!1 &1471124750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 628648206314809653, guid: 75c34e38e89d82d4bb842ec8ce90bf15,
+    type: 3}
+  m_PrefabInstance: {fileID: 5033340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1471124754
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471124750}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3871956135966339662, guid: 75c34e38e89d82d4bb842ec8ce90bf15, type: 3}
 --- !u!1 &1525260902
 GameObject:
   m_ObjectHideFlags: 0
@@ -11992,7 +12053,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 3536491645684782334, guid: 3dbae2f2863ee4d46b65df10f07a5226, type: 3}
     - {fileID: 8457819816216479738, guid: 3dbae2f2863ee4d46b65df10f07a5226, type: 3}
     - {fileID: 8371031809304855764, guid: 3dbae2f2863ee4d46b65df10f07a5226, type: 3}
     - {fileID: 7215359722045899004, guid: 3dbae2f2863ee4d46b65df10f07a5226, type: 3}
