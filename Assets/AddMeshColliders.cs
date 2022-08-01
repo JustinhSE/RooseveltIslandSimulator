@@ -5,40 +5,23 @@ using UnityEngine;
 
 public class AddMeshColliders : MonoBehaviour
 {
-    
-    //public List<GameObject> listOfChildren;
-    private void GetChildren(GameObject obj)
+    void Start()
     {
-        if (null == obj)
-            return;
-
-        foreach (Transform child in obj.transform)
+        //GetChildren(this.GameObject());
+        addMeshes(this.GameObject());
+    }
+    
+    private void addMeshes(GameObject obj)
+    {
+        Transform[] allChildren = GetComponentsInChildren<Transform>();
+        foreach (Transform child in allChildren)
         {
-            if (null == child)
-                continue;
-            //child.gameobject contains the current child 
-            if (child.gameObject.GetComponent<MeshFilter>().mesh == null)
+            if (child.gameObject.GetComponent<MeshFilter>() != null)
             {
-                return;
-            }
-
-            else
-            {
-                Mesh mesh = child.gameObject.GetComponent<MeshFilter>().mesh;
-                // Add a new MeshCollider to the child object
-                MeshCollider meshCollider = child.gameObject.AddComponent<MeshCollider>();
-                meshCollider.sharedMesh = mesh;
-
-                //listOfChildren.Add(child.gameObject);
-                GetChildren(child.gameObject);
+                child.gameObject.AddComponent<MeshCollider>();
             }
         }
     }
-
-
-    void Start()
-    {
-      GetChildren(this.GameObject());
-    }
-
 }
+
+
