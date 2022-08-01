@@ -1,36 +1,44 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AddMeshColliders : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    //public List<GameObject> listOfChildren;
+    private void GetChildren(GameObject obj)
     {
-        List<GameObject> objects = GetAllObjectsInScene();
-        foreach (GameObject childObject in objects)
+        if (null == obj)
+            return;
+
+        foreach (Transform child in obj.transform)
         {
-            if (childObject.gameObject.GetComponent<MeshFilter>().mesh != null)
+            if (null == child)
+                continue;
+            //child.gameobject contains the current child 
+            if (child.gameObject.GetComponent<MeshFilter>().mesh == null)
             {
-                Mesh mesh = childObject.gameObject.GetComponent<MeshFilter>().mesh;
-                // Add a new MeshCollider to the child object
-                MeshCollider meshCollider = childObject.gameObject.AddComponent<MeshCollider>();
+                return;
             }
 
+            else
+            {
+                Mesh mesh = child.gameObject.GetComponent<MeshFilter>().mesh;
+                // Add a new MeshCollider to the child object
+                MeshCollider meshCollider = child.gameObject.AddComponent<MeshCollider>();
+                meshCollider.sharedMesh = mesh;
+
+                //listOfChildren.Add(child.gameObject);
+                GetChildren(child.gameObject);
+            }
         }
     }
 
-    private static List<GameObject> GetAllObjectsInScene()
-    {
-        List<GameObject> objectsInScene = new List<GameObject>();
 
-        foreach (GameObject go in Resources.FindObjectsOfTypeAll(typeof(GameObject)) as GameObject[])
-        {
-            if (go.hideFlags != HideFlags.None)
-                continue;
-            objectsInScene.Add(go);
-        }
-        return objectsInScene;
+    void Start()
+    {
+      GetChildren(this.GameObject());
     }
 
 }
