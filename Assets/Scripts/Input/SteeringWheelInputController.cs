@@ -60,6 +60,8 @@ public class SteeringWheelInputController : InputController {
     private bool FWheel; //stands for Fanatec wheel
     private bool MasterSteeringWheel = false;
     private float slaveSteering = 0;
+    private bool running = false;
+    private IEnumerator coroutine;
 
     protected override void Start()
     {
@@ -79,6 +81,9 @@ public class SteeringWheelInputController : InputController {
         }
 
         DirectInputWrapper.Init();
+        running = true;
+        coroutine = noSoFreqeuntCall();
+        StartCoroutine(coroutine);
 
         MasterSteeringWheel = false;
         masterIndex = reportMasterWheel("FANATEC CSL Elite Wheel Base");
@@ -103,7 +108,6 @@ public class SteeringWheelInputController : InputController {
                 Debug.Log("STEERINGWHEEL: Multiple devices and couldn't find steering wheel device index");
         }
 
-        Debug.Log("Status of Wheel: " + MasterSteeringWheel);
         if (MasterSteeringWheel) {
         minBrake = AppController.Instance.appSettings.minBrakeFanatec;
         maxBrake = AppController.Instance.appSettings.maxBrakeFanatec;
@@ -123,6 +127,94 @@ public class SteeringWheelInputController : InputController {
         FFBGain = AppController.Instance.appSettings.FFBMultiplier;
 
         
+    }
+
+    IEnumerator noSoFreqeuntCall()
+    {
+        while (running)
+        {
+            yield return new WaitForSeconds(1.0f);
+
+            DeviceState state;
+            DeviceState slaveState;
+
+
+            if (MasterSteeringWheel)
+            {
+                state = DirectInputWrapper.GetStateManaged(masterIndex);
+                slaveState = DirectInputWrapper.GetStateManaged(wheelIndex);
+                slaveSteering = slaveState.lX / 32768f;
+            }
+            else
+            {
+
+                state = DirectInputWrapper.GetStateManaged(wheelIndex);
+            }
+
+            steerInput = state.lX / 32768f;
+            //accelInput = state.rglSlider [0] / -32768f;
+            Debug.Log(DirectInputWrapper.GetProductNameManaged(wheelIndex));
+
+            Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
+            /*
+            for (int i = 0; i < DirectInputWrapper.DevicesCount(); i++)
+            {
+                Debug.Log("The current " + i + " device is: " + DirectInputWrapper.GetProductNameManaged(i));
+
+                DeviceState state;
+                state = DirectInputWrapper.GetStateManaged(i);
+                Debug.Log("Device:" + i.ToString() + " \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
+            }
+
+        }
+        */
+            if (DirectInputWrapper.DevicesCount() > 1 || MasterSteeringWheel)
+            {
+
+                int gas = 0;
+                int brake = 0;
+                if (DirectInputWrapper.DevicesCount() > 1 && !MasterSteeringWheel)
+                {
+                    DeviceState state2 = DirectInputWrapper.GetStateManaged(pedalIndex);
+                    switch (gasAxis)
+                    {
+                        case "X":
+                            gas = state2.lX;
+                            break;
+                        case "Y":
+                            gas = state2.lY;
+                            break;
+                        case "Z":
+                            gas = state2.lZ;
+                            break;
+                    }
+
+                    switch (brakeAxis)
+                    {
+                        case "X":
+                            brake = state2.lX;
+                            break;
+                        case "Y":
+                            brake = state2.lY;
+                            break;
+                        case "Z":
+                            brake = state2.lZ;
+                            break;
+                    }
+                }
+                if (MasterSteeringWheel)
+                {
+                    brake = state.lRz;
+                    gas = state.lY;
+
+                }
+                //Debug.Log(brake.ToString() + " break and gas" + gas.ToString());
+                float totalGas = (maxGas - minGas);
+                float totalBrake = (maxBrake - minBrake);
+
+                accelInput = (gas - minGas) / totalGas - (brake - minBrake) / totalBrake;
+            }
+        }
     }
 
     IEnumerator SpringforceFix()
@@ -301,7 +393,7 @@ public void InitSpringForce(int sat, int coeff)
 			DirectInputWrapper.Update ();
 
 			
-
+            /*
 				DeviceState state;
 				DeviceState slaveState;
 
@@ -320,7 +412,7 @@ public void InitSpringForce(int sat, int coeff)
                 Debug.Log(DirectInputWrapper.GetProductNameManaged(wheelIndex));
 
 				Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
-
+                */
 
 				/* x = state.lX;
              y = state.lY;
@@ -345,20 +437,24 @@ public void InitSpringForce(int sat, int coeff)
 					}
 
 				}
-                
 
-                if (DirectInputWrapper.DevicesCount () > 1 || MasterSteeringWheel) {
 
-					int gas = 0;
-					int brake = 0;
-					if (DirectInputWrapper.DevicesCount () > 1 && !MasterSteeringWheel) {
-						DeviceState state2 = DirectInputWrapper.GetStateManaged (pedalIndex);
-						/* x2 = state2.lX;
-                     y2 = state2.lY;
-                     z2 = state2.lZ;
-                     s02 = state2.rglSlider[0];
-                     s12 = state2.rglSlider[1];*/
-						switch (gasAxis) {
+
+            /* x2 = state2.lX;
+         y2 = state2.lY;
+         z2 = state2.lZ;
+         s02 = state2.rglSlider[0];
+         s12 = state2.rglSlider[1];*/
+         /*
+            if (DirectInputWrapper.DevicesCount() > 1 || MasterSteeringWheel)
+            {
+
+                int gas = 0;
+                int brake = 0;
+                if (DirectInputWrapper.DevicesCount() > 1 && !MasterSteeringWheel)
+                {
+                    DeviceState state2 = DirectInputWrapper.GetStateManaged(pedalIndex);
+                    switch (gasAxis) {
 						case "X":
 							gas = state2.lX;
 							break;
@@ -387,12 +483,13 @@ public void InitSpringForce(int sat, int coeff)
 						gas = state.lY;
 
 					}
-					Debug.Log(brake.ToString() + " break and gas" + gas.ToString());
+					//Debug.Log(brake.ToString() + " break and gas" + gas.ToString());
 					float totalGas = (maxGas - minGas);
 					float totalBrake = (maxBrake - minBrake);
 
 					accelInput = (gas - minGas) / totalGas - (brake - minBrake) / totalBrake;
 				}
+            */
 			}
 
 		
@@ -423,6 +520,11 @@ public void InitSpringForce(int sat, int coeff)
     {
         return MasterSteeringWheel;
     }
-  
+
+    private void OnDestroy()
+    {
+        running = false;
+        StopCoroutine(coroutine);
+    }
 }
 
