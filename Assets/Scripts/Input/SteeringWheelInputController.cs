@@ -133,7 +133,9 @@ public class SteeringWheelInputController : InputController {
     {
         while (running)
         {
-            yield return new WaitForSeconds(1.0f);
+            yield return new WaitForSeconds(0.15f);
+
+
 
             DeviceState state;
             DeviceState slaveState;
@@ -153,9 +155,9 @@ public class SteeringWheelInputController : InputController {
 
             steerInput = state.lX / 32768f;
             //accelInput = state.rglSlider [0] / -32768f;
-            Debug.Log(DirectInputWrapper.GetProductNameManaged(wheelIndex));
+            //Debug.Log(DirectInputWrapper.GetProductNameManaged(wheelIndex));
 
-            Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
+            //Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
             /*
             for (int i = 0; i < DirectInputWrapper.DevicesCount(); i++)
             {

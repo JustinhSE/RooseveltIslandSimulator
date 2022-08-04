@@ -89,7 +89,8 @@ public class DirectInputWrapper {
         {
             try
             {
-                ret = (DeviceState)Marshal.PtrToStructure(ptr, typeof(DeviceState));
+               //Debug.Log(ptr);
+               ret = (DeviceState)Marshal.PtrToStructure(ptr, typeof(DeviceState));
             } catch
             {
                 //TODO: do something better here
