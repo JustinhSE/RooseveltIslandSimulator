@@ -89,7 +89,7 @@ public class SteeringWheelInputController : InputController {
         masterIndex = reportMasterWheel("FANATEC CSL Elite Wheel Base");
         if (masterIndex > -1) { MasterSteeringWheel = true; }
         bool ff0 = DirectInputWrapper.HasForceFeedback(0); /// Thios part mworks for now as the main inputs are always 0 or 1 we need code here though tat jumps over the master wheel shpould it be present
-        Debug.Log("Amount of Devices: " + DirectInputWrapper.DevicesCount());
+        //Debug.Log("Amount of Devices: " + DirectInputWrapper.DevicesCount());
         if (DirectInputWrapper.DevicesCount() > 1)  // steering one and two should be padles and participant steering wheel
         {
             bool ff1 = DirectInputWrapper.HasForceFeedback(1);
@@ -133,7 +133,7 @@ public class SteeringWheelInputController : InputController {
     {
         while (running)
         {
-            yield return new WaitForSeconds(0.15f);
+            yield return new WaitForSeconds(0.3f);
 
 
 
@@ -152,9 +152,9 @@ public class SteeringWheelInputController : InputController {
 
                 state = DirectInputWrapper.GetStateManaged(wheelIndex);
             }
-
+            
             steerInput = state.lX / 32768f;
-            //accelInput = state.rglSlider [0] / -32768f;
+      //accelInput = state.rglSlider[0] / -32768f;
             //Debug.Log(DirectInputWrapper.GetProductNameManaged(wheelIndex));
 
             //Debug.Log("Device One: \tlRx: " + state.lRx + "\tlRy: " + state.lRy + "\tlRz: " + state.lRz + "\tlX: " + state.lX + "\tlY: " + state.lY + "\tlZ: " + state.lZ);
@@ -177,32 +177,19 @@ public class SteeringWheelInputController : InputController {
                 int brake = 0;
                 if (DirectInputWrapper.DevicesCount() > 1 && !MasterSteeringWheel)
                 {
-                    DeviceState state2 = DirectInputWrapper.GetStateManaged(pedalIndex);
-                    switch (gasAxis)
-                    {
-                        case "X":
-                            gas = state2.lX;
-                            break;
-                        case "Y":
-                            gas = state2.lY;
-                            break;
-                        case "Z":
-                            gas = state2.lZ;
-                            break;
-                    }
 
-                    switch (brakeAxis)
-                    {
-                        case "X":
-                            brake = state2.lX;
-                            break;
-                        case "Y":
-                            brake = state2.lY;
-                            break;
-                        case "Z":
-                            brake = state2.lZ;
-                            break;
-                    }
+                    //DeviceState state2 = DirectInputWrapper.GetStateManaged(pedalIndex);
+                    //int s12 = state2.rglSlider[1];
+
+                    //Debug.Log("so2 " + s02 + " s12 " + s12);
+
+                    DeviceState state2 = DirectInputWrapper.GetStateManaged(pedalIndex);
+                    //Debug.Log("Gas/Brake:" + " \tlRx: " + state2.lRx + "\tlRy: " + state2.lRy + "\tlRz: " + state2.lRz + "\tlX: " + state2.lX + "\tlY: " + state2.lY + "\tlZ: " + state2.lZ);
+                    
+                    gas = state2.rglSlider[0];
+                    
+                    brake = state2.lRz;
+                           
                 }
                 if (MasterSteeringWheel)
                 {
@@ -210,15 +197,17 @@ public class SteeringWheelInputController : InputController {
                     gas = state.lY;
 
                 }
-                //Debug.Log(brake.ToString() + " break and gas" + gas.ToString());
+                
                 float totalGas = (maxGas - minGas);
                 float totalBrake = (maxBrake - minBrake);
+                //Debug.Log(totalGas);
+                //Debug.Log(totalBrake);
 
                 accelInput = (gas - minGas) / totalGas - (brake - minBrake) / totalBrake;
             }
         }
     }
-
+    
     IEnumerator SpringforceFix()
     {
         yield return new WaitForSeconds(1f);
@@ -254,7 +243,7 @@ public class SteeringWheelInputController : InputController {
         springSaturation = sat;
     }
     /// DAVID: Additional controlls for the slave steering wheel to follow the main steeringwheel
-    /// 
+
     public void SetSlaveConstantForce(int force)
     {
         slaveConstant= force;
@@ -362,8 +351,8 @@ public void InitSpringForce(int sat, int coeff)
     public void OnGUI()
     {
         if(debugInfo) {
-            GUI.Label(new Rect(20, Screen.height - 180, 500, 100), "Raw Input: " + accelInput, debugStyle);
-            GUI.Label(new Rect(20, Screen.height - 100, 500, 100), "Adjusted Input: " + GetAccelBrakeInput(), debugStyle);
+            Debug.Log("Raw Input: " + accelInput);
+            Debug.Log("Adjusted Input: " + GetAccelBrakeInput());
         }
     }
 
@@ -499,10 +488,13 @@ public void InitSpringForce(int sat, int coeff)
 
     public override float GetAccelBrakeInput()
     {
+        //Debug.Log(accelInput);
         if (accelInput >= 0)
-            return PedalInputController.Instance.throttleInputCurve.Evaluate(accelInput);
+            //return PedalInputController.Instance.throttleInputCurve.Evaluate(accelInput);
+            return accelInput;
         else
-            return -PedalInputController.Instance.brakeInputCurve.Evaluate(-accelInput);
+            //return -PedalInputController.Instance.brakeInputCurve.Evaluate(-accelInput);
+            return -accelInput;
     }
 
     public override float GetSteerInput()
@@ -526,7 +518,7 @@ public void InitSpringForce(int sat, int coeff)
     private void OnDestroy()
     {
         running = false;
-        StopCoroutine(coroutine);
+//        StopCoroutine(coroutine);
     }
 }
 

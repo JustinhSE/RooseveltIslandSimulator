@@ -103,7 +103,7 @@ public class CollisionAudio : MonoBehaviour {
             }
         }
         
-        source.PlayOneShot(clip, vol);
+        //source.PlayOneShot(clip, vol);
 
     }
 }

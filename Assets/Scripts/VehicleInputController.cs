@@ -12,16 +12,17 @@ public class VehicleInputController : MonoBehaviour
 {
 
     private VehicleController controller;
-
+    SteeringWheelInputController inputController;
     void Awake()
     {
         controller = GetComponent<VehicleController>();
+        inputController = GetComponent<SteeringWheelInputController>();
     }
 
     void Update()
     {
         //grab input values
-        var inputController = AppController.Instance.UserInput;
+//        var inputController = AppController.Instance.UserInput;
         controller.steerInput = inputController.GetSteerInput();
         controller.accellInput = inputController.GetAccelBrakeInput();
     }
